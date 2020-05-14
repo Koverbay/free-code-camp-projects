@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<!-- CSS, External Fonts, Etc -->
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2|Open+Sans&display=swap" rel="stylesheet">
+
+<main>
+  <body>
+    
+      <div class="title-container">
+    <header>
+  <h1 id="title" class="title"> Hamster Opinions </h1>
+  <p id="description" class="description"> How do you feel about the hamsters shown on this website? Give us your feedback below! </p>
+    </header>
+      </div>
+  
+<div class="survey-container">
+  <form id="survey-form" class="survey-form">
+    
+    <label for="name" id="name-label">Name:</label></br>
+    <input required id="name" type="text" placeholder="Your name here..."> </input><br/><br/>
+  
+    <label for="email" id="email-label">Email:</label></br>
+    <input required title="Please enter a valid email." id="email" type="email"  placeholder="Your email here..."> </input><br/><br/>
+
+    <label required for="number" id="number-label">Number of Hamsters Owned:</label></br>
+    <input  id="number" type="number" placeholder="Ex. 5" min=0 max=100> </input><br/><br/>
+
+    <label for="hamstertype">Types of hamsters owned:</label><br/>
+      <input type="checkbox" id="syrian" name="syrian" value="syrian">
+      <label for="syrian">Syrian</label><br/>
+      <input type="checkbox" id="dwarf" name="dwarf" value="dwarf">
+      <label for="dwarf">Dwarf</label><br/><br/>
+
+    <label for="agerange">Age Range:</label></br>
+      <input type="radio" id="tens" name="agerange" value="tens">
+      <label for="tens">10-19</label><br/>
+      <input type="radio" id="twenties" name="agerange" value="twenties">
+      <label for="twenties">20-29</label><br/><input type="radio" id="thirties" name="agerange" value="thirties">
+      <label for="thirties">30-39</label><br/>
+      <input type="radio" id="forties" name="agerange" value="forties">
+      <label for="forties">40-49</label><br/>
+      <input type="radio" id="fiftyplus" name="agerange" value="fiftyplus">
+      <label for="fiftyplus">50+</label><br/><br/>
+
+    <label for="dropdown">How satisfied are you with the hamsters on this site?</label></br>
+      <select id="dropdown" class="dropdown"> 
+        <option> Not satisfied </option>
+        <option> Somewhat satisfied </option>
+        <option> Very satisfied</option>
+      </select><br/><br/>
+
+    <label for="additional">Any additional feedback?</label></br>
+    <textarea placeholder="Any additional feedback?">
+
+    </textarea>
+    <br/>
+    <br/>
+    <input type = "submit" id="submit" class="submitbutton" target="#"></input>
+  </form>
+</div>
+</>
+</body>
+</main>
+</html>

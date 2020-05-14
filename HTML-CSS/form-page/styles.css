@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-color: #272727;
+}
+
+main {
+  background-color: #EEF4D4;
+}
+
+h1 {
+  font-family:'Baloo Thambi 2', cursive;
+  font-size: 50px;
+  font-color: #272727;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-color: #272727;
+}
+
+.title-container {
+  background-color: #F4C090;
+  width: 600px;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 30px;
+  text-align: center;
+  border-radius: 30px;
+  padding: .5em 0 1.5em 0;
+}
+
+.survey-container {
+  width: 600px;
+  background-color: #FFF18E;
+  margin: 50px auto 0 auto;
+  border-radius: 30px;
+  padding: 2em 0 2em 2em;
+}
+
+/* .survey-form {
+  text-align: left;
+} */
